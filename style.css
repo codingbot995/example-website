@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+   font-family: 'Courier New', Courier, monospace;
+
+    
+    
+    
+}
+h1{
+    color:rgb(11, 11, 68);
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 35px;
+}
+p{
+    text-align: center;
+    color:rgb(11, 11, 51);
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap:40px;
+    justify-content: center;
+    padding: 50px;
+    
+}
+textarea.note{
+    background-color: seashell;
+    border-radius: 10px;
+    box-shadow: 0, 0, 10px rgba(0,0,0,.2);
+    padding: 10px;
+    resize: none;
+    border: none;
+    outline: none;
+    height: auto ;
+    font-size: 20px;
+    color:darkblue;
+    box-sizing: border-box;
+}
+.note::placeholder{
+    font-size: 20px;
+    color:burlywood;
+    opacity: 3;
+}
+.note:hover, .note:focus{
+    box-shadow: 0 0 20px rgba(26, 21, 21, 0.2);
+    transition:  all 0.3 ease;
+}
+.btn{
+    height: 200px;
+    background-color: rgb(13, 36, 56);
+    font-size: 70px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color:black;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:darkslategray;
+}
+
